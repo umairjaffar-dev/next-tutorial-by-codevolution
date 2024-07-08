@@ -1,7 +1,11 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import React from "react";
 
 const ProductDetail = ({ params }: { params: { productId: string } }) => {
+  if (parseInt(params.productId) > 5) {
+    notFound();
+  }
   return (
     <div className="p-4 grid grid-rows-[auto_1fr]">
       <div className="flex justify-end">

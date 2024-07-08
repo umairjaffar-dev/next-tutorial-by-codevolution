@@ -25,10 +25,10 @@ const Header = () => {
           Products
         </Link>
         <Link
-          href="/profile"
+          href="/shop/a"
           className="border border-gray-200 px-4 rounded-md bg-gray-200 hover:bg-gray-300"
         >
-          Profile
+          Shop
         </Link>
       </div>
     </div>
