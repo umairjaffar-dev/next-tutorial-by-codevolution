@@ -30,6 +30,18 @@ const Header = () => {
         >
           Shop
         </Link>
+        <Link
+          href="/login"
+          className="border border-green-200 px-4 rounded-md bg-gray-200 hover:bg-gray-300"
+        >
+          Login
+        </Link>
+        <Link
+          href="/register"
+          className="border border-green-200 px-4 rounded-md bg-gray-200 hover:bg-gray-300"
+        >
+          Register
+        </Link>
       </div>
     </div>
   );
