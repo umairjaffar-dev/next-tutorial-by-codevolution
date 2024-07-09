@@ -1,6 +1,25 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
+
+type MetadataProps = {
+  params: {
+    productId: string;
+  };
+};
+
+// Dynamic meta data to see the detial of each product.
+export const generateMetadata = async ({
+  params,
+}: MetadataProps): Promise<Metadata> => {
+  const title = await new Promise((resolve) => {
+    setTimeout(() => resolve(`iPhone ${params.productId}`), 3000);
+  });
+  return {
+    title: `Product ${title}`,
+  };
+};
 
 const ProductDetail = ({ params }: { params: { productId: string } }) => {
   if (parseInt(params.productId) > 5) {
