@@ -3,7 +3,7 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div className='flex flex-col gap-3 px-3'>
+    <div className='border w-full h-full flex flex-col gap-3 px-3'>
         <h1>List of all products</h1>
         <Link href="/products/1" className='text-blue-400 underline'>Product 1</Link>
         <Link href="/products/2" className='text-blue-400 underline'>Product 2</Link>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full h-16 rounded-b-sm shadow-sm grid grid-cols-[auto_1fr] py-1 px-4">
+    <div className="w-full h-16 border-b rounded-md shadow-sm grid grid-cols-[auto_1fr] py-1 px-4">
       <div className="flex justify-center items-center">
         <Link href="/">
           <span className="font-bold bg-gray-100 px-2 py-1  text-fuchsia-700 text-lg font-serif">
