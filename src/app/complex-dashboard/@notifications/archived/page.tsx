@@ -2,15 +2,15 @@ import Card from "@/components/Card";
 import Link from "next/link";
 import React from "react";
 
-const Notifications = () => {
+const ArchivedNotification = () => {
   return (
     <Card>
       <div className="flex justify-center gap-2 items-center">
-        <p>View all Notifications</p>
-        <Link href="/complex-dashboard/archived" className="text-blue-500 underline">Archived</Link>
+        <p>Archived Notifications</p>
+        <Link href="/complex-dashboard" className="text-blue-500 underline">dashboard</Link>
       </div>
     </Card>
   );
 };
 
-export default Notifications;
+export default ArchivedNotification;

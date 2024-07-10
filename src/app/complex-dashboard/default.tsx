@@ -1,7 +1,7 @@
 import Card from "@/components/Card";
 import React from "react";
 
-const Dashboard = () => {
+const DefaultDashboard = () => {
   return (
     <Card>
       <p>Complex Dashboard Page</p>
@@ -9,4 +9,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DefaultDashboard;

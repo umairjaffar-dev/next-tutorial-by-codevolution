@@ -12,6 +12,11 @@ const Header = () => {
         </Link>
       </div>
       <div className="flex justify-end items-center gap-3">
+        <Link href="/complex-dashboard">
+          <span className="font-bold bg-gray-100 px-2 py-1  text-fuchsia-700 text-lg font-serif rounded-md">
+            Dashboard
+          </span>
+        </Link>
         <Link
           href="/about"
           className="border border-gray-200 px-4 rounded-md bg-gray-200 hover:bg-gray-300"
